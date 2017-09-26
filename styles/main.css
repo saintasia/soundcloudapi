@@ -1,0 +1,59 @@
+/* CURRENTLY IN: styles/main.css */
+html, body {
+	height: 100%;
+	width: 100%;
+	min-height: 100%;
+}
+
+#soundcloud-player .col {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+#soundcloud-player .col-left {
+	width: 30%;
+	height: 100%;
+	background-color: #292929;
+	display: block;
+    float: left;
+	overflow: auto;
+}
+
+#soundcloud-player .col-right {
+	width: 70%;
+    display: block;
+    float: left;
+	height: 100%;
+    overflow: auto;
+}
+
+#soundcloud-player .main {
+	padding: 30px;
+	margin: 30px;
+}
+
+#soundcloud-player .input {
+	width: 100%;
+}
+
+#soundcloud-player .input-search {
+	width: 100%;
+	display: block;
+}
+
+#soundcloud-player .search.icon {
+	pointer-events: initial;
+	cursor: pointer;
+}
+
+#soundcloud-player .search-results {
+	justify-content: center;
+    margin-top: 30px;
+}
+
+.ui.primary.button {
+    margin-bottom: 30px;
+}
